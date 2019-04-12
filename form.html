@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<style>
+			.formBody{
+				background:black;
+				width:1000px;
+			}
+			input[type=text], input[type=password] 
+			{
+		  	width: 200px;
+		  	padding: 15px;
+		  	margin: 5px 0 22px 0;
+		  	display: inline-block;
+		  	border: none;
+		  	background: #f1f1f1;
+			}
+			input[type=email]
+			{
+		  	width: 435px;
+		  	padding: 15px;
+		  	margin: 5px 0 22px 0;
+		  	display: inline-block;
+		  	border: none;
+		  	background: #f1f1f1;
+			}
+			select[name=gender]
+			{
+			  	width: 470px;
+			  	padding: 20px;
+			  	margin: 5px 0 22px 0;
+			  	display: inline-block;
+			  	border: none;
+			  	background: #f1f1f1;
+			}
+			select[name=country]
+			{
+			  	width: 470px;
+			  	padding: 20px;
+			  	margin: 5px 0 22px 0;
+			  	display: inline-block;
+			  	border: none;
+			  	background: #f1f1f1;
+			}
+			select[name=date]
+			{
+			  	width: 150px;
+			  	padding: 20px;
+			  	margin: 5px 0 22px 0;
+			  	display: inline-block;
+			  	border: none;
+			  	background: #f1f1f1;
+			}
+			.registerbtn {
+			  background-color:#0080FF;
+			  color: white;
+			  padding: 16px 20px;
+			  margin: 8px 0;
+			  border: none;
+			  cursor: pointer;
+			  width: 470px;
+			  opacity: 0.9;
+			}
+			.headings{
+				color:white;
+				margin-left:100px;
+			}
+			.headings1{
+				color:white;
+				margin-left:350px;
+			}
+			input[type=number]
+			{
+				
+				width:146px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="formBody">
+			<h2 class="headings1">Please Enter Your Details</h2>
+			<h4 class="headings1">Fill the application form below and submit.</h4>
+			
+			<label for="Name" class="headings">Name*</label> <input style ="margin-left:120px;"type="text" placeholder="First Name"> <input type="text" placeholder="Sur Name"><br>
+			
+			<label for="email" class="headings">E-mail Adress*</label> <input style="margin-left:62px"type="email" placeholder="Mail@example.com"><br>
+			
+			<label for="Phone Number" class="headings">Phone Number*</label> <input style="margin-left:55px;width:435px"type="text" placeholder="Phone Number"><br>
+			
+			<label for="Gender" class="headings">Gender*</label><select style="margin-left:110px"name="gender">
+			    <option value="Male">Male</option>
+			    <option value="Female">Female</option>
+			    <option value="Other">Other</option>
+			  </select><br>
+			  
+  			<label for="Country" class="headings">Citizen*</label><select style="margin-left:116px"name="country">
+  			    <option value="India">India</option>
+  			    <option value="England">England</option>
+  			    <option value="China">China</option>
+  			  </select><br>
+			  
+			  <label for="date" class="headings">Date of Birth*</label><select style="margin-left:85px"name="date">
+				  <option value="choose">Choose</option>
+  			    <option value="1">1</option>
+  			    <option value="2">2</option>
+  			    <option value="3">3</option>
+  			  </select>
+			  
+			  <select name="date">
+			    			    <option value="jan">jan</option>
+			    			    <option value="feb">feb</option>
+			    			    <option value="mar">mar</option>
+			    			  </select>
+						  
+						  <select name="date">
+						    			    <option value="2019">2019</option>
+						    			    <option value="2018">2018</option>
+						    			    <option value="2017">2017</option>
+						    			  </select><br>
+									  
+			<label for="Address" class="headings">Address*</label><input style ="margin-left:110px;" type="text" placeholder="Street Address"> <input type="text" placeholder="Street Line 2">  <br>
+				  <input style ="margin-left:274px;" type="text"placeholder="Landmark"> <input type="text" placeholder="City"><br>
+				  <input style ="margin-left:274px;" type="text" placeholder="State"> <input type="text" placeholder="Zip Code">
+				  
+				  <br><button style="margin-left:270px" type="submit" class="registerbtn">Submit</button>
+		</div>
+	</body>
+</html>
